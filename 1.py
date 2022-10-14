@@ -1,7 +1,7 @@
-A = 'Vladislav'
-B = 'Matvienko'
-C = int(2004)
-print(A, B, C)
+A = str(input('Введите имя: '))
+B = str(input('Введите фамилию: '))
+C = int(input('Введите год: '))
+print(A+'_'+B+'_'+str(C))
 A,B = B,A
 C = C+60
-print(A, B, C)
+print(A+'_'+B+'_'+str(C))
